@@ -1,0 +1,52 @@
+.small{
+    font-size: 11px;
+}
+.register-form{
+    input {
+        background-color: transparent;
+        color: #fff !important;
+        &::placeholder{
+            color: var(--bs-secondary);
+        }
+        &:focus{
+            background-color: transparent !important;
+        }
+    }
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+}
+.icon-spin {
+    -webkit-animation: icon-spin 2s infinite linear;
+            animation: icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+    0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    }
+    100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+    }
+}
+
+@keyframes icon-spin {
+    0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    }
+    100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+    }
+}

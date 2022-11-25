@@ -1,0 +1,5 @@
+export {default as All} from "./All/All"
+export {default as Categories} from "./Categories/Categories"
+export {default as Platforms} from "./Platforms/Platforms"
+export {default as SortBy} from "./SortBy/SortyBy"
+export {default as GameDetails} from "./GameDetails/GameDetails"
