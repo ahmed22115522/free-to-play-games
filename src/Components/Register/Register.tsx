@@ -29,7 +29,7 @@ const Register = () => {
 
   async function submitForm(userData: any){
     setLoading(true);
-    let {data} = await axios.post("https://route-egypt-api.herokuapp.com/signup", userData)
+    let {data} = await axios.post("https://route-movies-api.vercel.app/signup", userData)
     if(data.message == 'success'){
       setLoading(false);
       navigate("/login");
