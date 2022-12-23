@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/free-to-play-games/static/css/main.96643eb8.css",
-    "main.js": "/free-to-play-games/static/js/main.0b0c51c5.js",
+    "main.js": "/free-to-play-games/static/js/main.dc7bf377.js",
     "static/media/Login.jpg": "/free-to-play-games/static/media/Login.d5751ff804c935b205d3.jpg",
     "static/media/logoGame.png": "/free-to-play-games/static/media/logoGame.548dc5719c2345c22eef.png",
     "index.html": "/free-to-play-games/index.html",
     "main.96643eb8.css.map": "/free-to-play-games/static/css/main.96643eb8.css.map",
-    "main.0b0c51c5.js.map": "/free-to-play-games/static/js/main.0b0c51c5.js.map"
+    "main.dc7bf377.js.map": "/free-to-play-games/static/js/main.dc7bf377.js.map"
   },
   "entrypoints": [
     "static/css/main.96643eb8.css",
-    "static/js/main.0b0c51c5.js"
+    "static/js/main.dc7bf377.js"
   ]
 }
